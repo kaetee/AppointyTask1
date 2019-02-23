@@ -52,7 +52,7 @@ int checkResult(string userChoice, string compChoice){
                      break;  
         case 'paper': if(compChoice = 'paper') return -1;
                      else if(compChoice = 'rock') return 1;
-                     else return 1; 
+                     else return 0; 
                      break;     
         case 'scissor': if(compChoice = 'scissor') return -1;
                      else if(compChoice = 'paper') return 1;
