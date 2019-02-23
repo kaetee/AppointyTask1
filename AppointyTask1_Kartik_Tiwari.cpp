@@ -29,7 +29,6 @@ void main(){
 }
 
 int play(string userChoice){
-    string userChoice;
     string textArray[3] = {'rock','paper','scissor'};
     for(int i=0;i<userChoice.size();i++){
         userChoice[i]=tolower(userChoice[i]);
@@ -62,7 +61,7 @@ int checkResult(string userChoice, string compChoice){
         default: return -1;                                       
     }
 }
-void showStats(vector<int) stats){
+void showStats(vector<int> stats){
     for(int i=0;i<stats.size(); i++0{
     if(stats[i] == 0){
         cout<<"Game "<<i+1<<": LOSE";
