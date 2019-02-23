@@ -37,11 +37,9 @@ int play(string userChoice){
      temp = rand() % 2;
      string compChoice = textArray[temp];
     }
-    checkResult(userChoice, compChoice);
-    clrscr;
-    cout<<"Press 1 to play again, 2 to show stats, 3 to exit";
-    cin>>choice;
+    int result = checkResult(userChoice, compChoice);
   	system ("CLS");
+return result;
 }
 
 int checkResult(string userChoice, string compChoice){
