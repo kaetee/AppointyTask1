@@ -61,6 +61,7 @@ int checkResult(string userChoice, string compChoice){
         default: return -1;                                       
     }
 }
+
 void showStats(vector<int> stats){
     for(int i=0;i<stats.size(); i++{
     if(stats[i] == 0){
