@@ -56,13 +56,13 @@ int checkResult(string userChoice, string compChoice){
                      break;     
         case 'scissor': if(compChoice = 'scissor') return -1;
                      else if(compChoice = 'paper') return 1;
-                     else return 1; 
+                     else return 0; 
                      break;
         default: return -1;                                       
     }
 }
 void showStats(vector<int> stats){
-    for(int i=0;i<stats.size(); i++0{
+    for(int i=0;i<stats.size(); i++{
     if(stats[i] == 0){
         cout<<"Game "<<i+1<<": LOSE";
     }    
